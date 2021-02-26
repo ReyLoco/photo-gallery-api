@@ -4,10 +4,11 @@ import indexRoutes from "./routes/index";
 import path from "path";
 
 const app = express();
+
 /*****************
 // settings
 ******************/
-// Se define el puerto del servidor
+// Se define el puerto del servidor (esto podría estar mejor en un archivo de environment)
 app.set("port", process.env.PORT || 3000);
 
 /*****************

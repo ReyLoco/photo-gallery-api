@@ -1,6 +1,6 @@
-import { Schema, Model, Document, model } from "mongoose";
+import { Schema, Document, model } from "mongoose";
 
-// esquema para la BD MongoDB. Mongoose usa mayúsculas en los tipos
+// Esquema para la BD MongoDB. Mongoose usa mayúsculas en los tipos
 const schema = new Schema({
   title: String,
   description: String,
